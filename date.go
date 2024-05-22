@@ -3,10 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
+	"log"
 	"time"
 )
 
 func main() {
+	log.Println("start")
+
 	flag.Parse()
 	args := flag.Args()
 
